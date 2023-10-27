@@ -1,9 +1,9 @@
 async function sendToTelegramBot(formData) {
-    const token = '6356364584:AAE49-UWxXtIspSN04aOzS8roWeA-WkmfbA';
- const chat_id = '-1001817665509'; // Guruh ID sini shu yerda kiritish kerak
+//     const token = '6775733107:AAHllQZ4hrta7ikstKlOdiZAYMsC1Llq6Eo';
+//  const chat_id = '-4055145732'; // Guruh ID sini shu yerda kiritish kerak
  const url = `https://api.telegram.org/bot${token}/sendMessage`;
 
- const message = `Ism: ${formData.name}\nTel: ${formData.tel}`;
+ const message = `Имя: ${formData.name}\nTel: ${formData.tel}`;
 
  try {
    const response = await fetch(url, {

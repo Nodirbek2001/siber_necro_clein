@@ -590,7 +590,7 @@ nav label.cancel {
         color: #fff;
         text-decoration: none;
         text-align: center;
-        margin-top: -560px;
+        margin-top: -540px;
         display: inline;
         position: absolute;
         background: #F1A948;
@@ -766,14 +766,12 @@ nav label.cancel {
         font-size: 56px !important;
     }
     .header_content_title_text p {
-        line-height: 25px;
+        line-height: 18px;
     }
 
 }
 @media (max-width:390px) {
-    .consultaion2 {
-        margin-top: -580px !important;
-    }
+
     .header_content {
         margin-top: -550px !important;
     }
@@ -783,7 +781,7 @@ nav label.cancel {
     }
     .header_content_title_text2 {
         font-size: 45px !important;
-        line-height: 60px !important;
+        line-height: 50px !important;
     }
     .header_content_title_text {
         padding-top: 0px;
@@ -1080,7 +1078,7 @@ nav label.cancel {
     font-family: 'Inter', sans-serif;
     font-size: 16px;
     font-weight: 400;
-    line-height: 25px;
+    line-height: 20px;
 }
 .corusel_card_title_price {
     padding-top: 20px;
@@ -2262,6 +2260,11 @@ font-size: 20px;
     color: #ffffff !important;
   }
 
+  @media (max-width: 1150px) {
+    .service_dtl_color {
+        color: #121212 !important;
+    }
+  }
   @media (max-width: 750px) {
     .service_dtl_block {
         width: 100%;
