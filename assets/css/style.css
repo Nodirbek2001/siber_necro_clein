@@ -356,6 +356,7 @@ nav label.cancel {
     font-weight: 400;
     line-height: 85px !important;
     }
+
 }
 @media (max-width:1570px) {
     .header_content_title {
@@ -509,6 +510,7 @@ nav label.cancel {
         transition: all 0.3s ease;
     }
     .menu ul a {
+        font-weight: normal;
         display: block;
         font-size: 23px;
         width: 100%;
