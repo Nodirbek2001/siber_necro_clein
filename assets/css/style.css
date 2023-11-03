@@ -344,6 +344,12 @@ nav label.cancel {
 .bars_service_dtl {
     margin-top: 0px !important;
 }
+.header_content {
+    position: absolute !important;
+    bottom: 70px;
+}
+
+
 
 @media (max-width:1600px) {
     .header_content_title_text1 {
@@ -383,9 +389,9 @@ nav label.cancel {
     }
 }
 @media (max-width:1315px) {
-    .header_content {
+    /* .header_content {
         padding-top: 250px !important;
-    }
+    } */
     .location {
         display: flex;
         flex-direction: column;
@@ -417,9 +423,9 @@ nav label.cancel {
 }
 
 @media (max-width:1150px) {
-    .header_content {
+    /* .header_content {
         margin-top: -760px !important;
-    }
+    } */
     .container {
         width: 94%;
         margin-left: 3%;
@@ -550,20 +556,20 @@ nav label.cancel {
     }
     
 }
-@media (max-width:849px) {
+/* @media (max-width:849px) {
     .header_content {
         margin-top: -635px !important;
     }
-}
+} */
 
 
 @media (max-width:700px) {
     .header_content_title_text2 {
         font-size: 65px !important;
     }
-    .header_content {
+    /* .header_content {
         margin-top: -676px !important;
-    }
+    } */
     .header_content_title_text {
         column-gap: 25px !important;
     }
@@ -637,9 +643,9 @@ nav label.cancel {
 
 /*Header section Content */
 
-.header_content {
+/* .header_content {
     padding-top: 230px;
-}
+} */
 .header_content_title {
     width: 60%;
 } 
@@ -713,14 +719,14 @@ nav label.cancel {
 }
 
 @media (max-width:955px) {
-    .header_content {
+    /* .header_content {
         margin-top: -600px;
-    }
+    } */
 }
 @media (max-width:690px) {
-    .header_content {
+    /* .header_content {
         margin-top: -550px !important;
-    }
+    } */
     .header_content_title {
         width: 95% !important;
     }
@@ -746,9 +752,9 @@ nav label.cancel {
     }
 }
 @media (max-width:580px) {
-    .header_content {
+    /* .header_content {
         margin-top: -630px !important;
-    }
+    } */
     .location {
         display: flex;
         flex-direction: column;
@@ -774,14 +780,15 @@ nav label.cancel {
 }
 @media (max-width:390px) {
 
-    .header_content {
+    /* .header_content {
         margin-top: -550px !important;
-    }
+    } */
     .header_content_title_text1 {
         font-size: 23px !important;
         line-height: 33px !important;
     }
     .header_content_title_text2 {
+        padding-bottom: 15px;
         font-size: 45px !important;
         line-height: 50px !important;
     }
@@ -789,7 +796,7 @@ nav label.cancel {
         padding-top: 0px;
     }
     .header_content_title_text p {
-        font-size: 12px;
+        font-size: 13px;
     }
 }
 
